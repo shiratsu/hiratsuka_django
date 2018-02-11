@@ -10,9 +10,9 @@ import json
 
 # 言語解析
 def shot(request):
-    convObj = ShotConversationAnalysis() 
+    convObj = ShotConversationAnalysis.ShotConversationAnalysis() 
     dicReturn = convObj.sentenceAnalysis(request)
     
-    strJson = json.dumps(dict)    
+    strJson = json.dumps(dicReturn)    
 
     return HttpResponse(strJson, content_type='application/json; charset=UTF-8')
