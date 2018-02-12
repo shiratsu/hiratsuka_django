@@ -28,6 +28,6 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
     # 職種を取得
     def getJobKind(self,sent):
-        dicReturn = {'val':'','if_true':False}
+        dicReturn = {'val':'','if_true':'0'}
         return dicReturn
 

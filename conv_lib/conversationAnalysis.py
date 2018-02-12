@@ -18,7 +18,7 @@ class ConversationAnalysis(metaclass=ABCMeta):
     # 文章から人名を取得(mecabで解析して取得する。)
     # katakanaで入れられた場合は、今のところ判定不可
     def getPerson(self,sent):
-        dicReturn = {'val':'','if_true':False}
+        dicReturn = {'val':'','if_true':'0'}
         node = self.mecab.parse(sent)
         aryName = []
         strName = ''
@@ -35,22 +35,22 @@ class ConversationAnalysis(metaclass=ABCMeta):
                 break
         
         dicReturn['val'] = strName
-        dicReturn['if_true'] = True
+        dicReturn['if_true'] = '1'
             
         return dicReturn
 
 
-    @abstractmethod
-    def getDate(self,sent):
-        pass
-
-    @abstractmethod
-    def getTime(self,sent):
-        pass
+#    @abstractmethod
+#    def getDate(self,sent):
+#        pass
+#
+#    @abstractmethod
+#    def getTime(self,sent):
+#        pass
 
     # 正規表現を使ってメアドのパターンを取得
     def getEmail(self,sent):
-        dicReturn = {'val':'','if_true':False}
+        dicReturn = {'val':'','if_true':'0'}
         strPattern = '[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+'
         objRe = re.compile(strPattern)
         m = objRe.match(sent)
@@ -63,7 +63,7 @@ class ConversationAnalysis(metaclass=ABCMeta):
     # 電話番号を取得
     # 電話番号は複数パターンある
     def getPhoneNumber(self,sent):
-        dicReturn = {'val':'','if_true':False}
+        dicReturn = {'val':'','if_true':'0'}
         
         strPattern1 = '^\d{10}$|^\d{11}$'
         objRe1 = re.compile(strPattern1)
@@ -88,7 +88,7 @@ class ConversationAnalysis(metaclass=ABCMeta):
     # ベースは形態素解析で良い気がする
     def getLocate(self,sent):
         strLoc = ''
-        dicReturn = {'val':'','if_true':False}
+        dicReturn = {'val':'','if_true':'0'}
         aryIfTrue = []
 
         for chunk in node.splitlines()[:-1]:
@@ -115,12 +115,13 @@ class ConversationAnalysis(metaclass=ABCMeta):
         strLoc = ''.join(aryName)
         dicReturn['val'] = strLoc
         dicReturn['if_true'] = 'False' not in aryIFTrue
+        dicReturn['if_true'] = '1' if 'False' not in aryIFTrue  else '0'
 
         return dicReturn
 
-    @abstractmethod
-    def getDeny(self,sent):
-        pass
+#    @abstractmethod
+#    def getDeny(self,sent):
+#        pass
 
 
     # マッチオブジェクトから、必要なもの取り出す
@@ -128,7 +129,7 @@ class ConversationAnalysis(metaclass=ABCMeta):
         
         strVal = match.group()
         dicReturn['val'] = strVal
-        dicReturn['if_true'] = True
+        dicReturn['if_true'] = '1'
 
         return dicReturn
 
