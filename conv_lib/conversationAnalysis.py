@@ -124,6 +124,21 @@ class ConversationAnalysis(metaclass=ABCMeta):
 #    def getDeny(self,sent):
 #        pass
 
+    # 名詞と動詞を取り出す
+    def getNounVerb(self,sent):
+
+        aryFeatures = []
+
+        node = self.mecab.parse(sent)
+        for chunk in node.splitlines()[:-1]:
+            (surface, feature) = chunk.split('\t')
+            #品詞を取得
+            features = feature.split(",")
+            pos = features[0]
+            if pos in [ '名詞','動詞']:
+                aryFeatures.append(features)
+        return aryFeatures
+
 
     # マッチオブジェクトから、必要なもの取り出す
     def checkRegex(self,match):
