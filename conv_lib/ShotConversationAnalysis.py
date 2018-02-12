@@ -15,8 +15,8 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
         # 取得したいもの
         wantObjs = request.GET.get(key="want_objs", default="")
-
         aryObjs = wantObjs.split(',')
+
 
         # ループで回して処理をしていく
         for strObj in aryObjs:

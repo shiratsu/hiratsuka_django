@@ -1,0 +1,9 @@
+[INFO]	asctime:2018-02-12 12:34:47,633	module:views	message:debug	process:79326	thread:123145507926016
+[DEBUG]	asctime:2018-02-12 12:34:47,634	module:views	message:debug	process:79326	thread:123145507926016
+[DEBUG]	asctime:2018-02-12 12:34:47,634	module:views	message:<bound method ShotMakeSentence.makeSentence of <conv_lib.ShotMakeSentence.ShotMakeSentence object at 0x1105aac18>>	process:79326	thread:123145507926016
+[INFO]	asctime:2018-02-12 12:39:34,787	module:util	message:<bound method ShotMakeSentence.makeSentence of <conv_lib.ShotMakeSentence.ShotMakeSentence object at 0x1067eac18>>	process:81051	thread:123145409548288
+[INFO]	asctime:2018-02-12 12:41:47,763	module:util	message:{}	process:81798	thread:123145505611776
+[INFO]	asctime:2018-02-12 12:43:43,974	module:util	message:{}	process:81798	thread:123145505611776
+[INFO]	asctime:2018-02-12 12:44:29,095	module:util	message:{}	process:81798	thread:123145505611776
+[INFO]	asctime:2018-02-12 12:45:53,765	module:util	message:{}	process:83175	thread:123145560866816
+[INFO]	asctime:2018-02-12 12:45:53,765	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'want_objs': {}, 'what_ask': 'JOB'}	process:83175	thread:123145560866816

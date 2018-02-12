@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from .makeSentence import MakeSentence
+from common_lib import util
 
-
-class ShotMakeSentence(metaclass=ABCMeta):
+class ShotMakeSentence(MakeSentence):
 
     # 返却文章を作る 
     def makeSentence(self,dictionary,request):
@@ -17,5 +17,7 @@ class ShotMakeSentence(metaclass=ABCMeta):
             dicReturn['sentence'] = '続いて希望の職種はなんですか'
             dicReturn['what_ask'] = 'JOB'
 
+        util.log(dicReturn)
+        
         return dicReturn
 

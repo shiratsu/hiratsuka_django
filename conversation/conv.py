@@ -7,15 +7,20 @@ from django.shortcuts import render
 from django.http import HttpResponse
 from conv_lib import ShotConversationAnalysis
 from conv_lib import ShotMakeSentence
+from common_lib import util
 import json
 
-# 必須パラメータ確認
-def checkRequired(request):
-
-    return True
 
 # 言語解析
 def shot(request):
+
+    # 必須チェック
+    aryMissing = util.checkRequired(request,['conversation_id','sentence','want_objs','what_ask'])
+    
+    if aryMissing.count > 0:
+        strMissing = ','.join(aryMissing)
+        return HttpResponse("{'error':'"+strMissing+' are required'"}", content_type='application/json; charset=UTF-8')
+
     anaObj = ShotConversationAnalysis.ShotConversationAnalysis() 
     makeObj = ShotMakeSentence.ShotMakeSentence() 
     
