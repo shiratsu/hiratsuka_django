@@ -19,7 +19,7 @@ def index(request):
     # Get an instance of a logger
 
     # 必須チェック
-    aryMissing = util.checkRequired(request,['conversation_id','sentence','want_objs','what_ask'])
+    aryMissing = util.checkRequired(request,['conversation_id','sentence','what_ask'])
     
     if len(aryMissing) > 0:
         strMissing = ','.join(aryMissing)

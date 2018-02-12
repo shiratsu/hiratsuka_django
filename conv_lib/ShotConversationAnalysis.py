@@ -4,6 +4,9 @@ from .conversationAnalysis import ConversationAnalysis
 
 class ShotConversationAnalysis(ConversationAnalysis):
 
+    def __init__(self):
+        super().__init__()
+        self.dicConvAnalytics = {'LOC':'','JOB':'','MONEY':''}
 
     # 文章解析PG
     def sentenceAnalysis(self,request):
@@ -14,15 +17,13 @@ class ShotConversationAnalysis(ConversationAnalysis):
         sentence = request.GET.get(key="sentence", default="")
 
         # 取得したいもの
-        wantObjs = request.GET.get(key="want_objs", default="")
-        aryObjs = wantObjs.split(',')
-
+        what_ask = request.GET.get(key="what_ask", default="")
 
         # ループで回して処理をしていく
-        for strObj in aryObjs:
-
-            if strObj == 'LOC':
-                dicReturn['LOC'] = self.getLocate(sentence)
+        if what_ask == 'LOC':
+            dicReturn['LOC'] = self.getLocate(sentence)
+            self.dicConvAnalytics['LOC'] = dicReturn['LOC'] 
+        
         return dicReturn
 
 

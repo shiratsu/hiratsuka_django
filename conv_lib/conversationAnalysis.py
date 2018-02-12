@@ -90,7 +90,8 @@ class ConversationAnalysis(metaclass=ABCMeta):
         strLoc = ''
         dicReturn = {'val':'','if_true':'0'}
         aryIfTrue = []
-
+        aryName = []
+        node = self.mecab.parse(sent)
         for chunk in node.splitlines()[:-1]:
             (surface, feature) = chunk.split('\t')
             #品詞を取得
@@ -114,8 +115,8 @@ class ConversationAnalysis(metaclass=ABCMeta):
             
         strLoc = ''.join(aryName)
         dicReturn['val'] = strLoc
-        dicReturn['if_true'] = 'False' not in aryIFTrue
-        dicReturn['if_true'] = '1' if 'False' not in aryIFTrue  else '0'
+        dicReturn['if_true'] = 'False' not in aryIfTrue
+        dicReturn['if_true'] = '1' if 'False' not in aryIfTrue  else '0'
 
         return dicReturn
 

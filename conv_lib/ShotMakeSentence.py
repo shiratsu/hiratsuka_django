@@ -8,10 +8,12 @@ class ShotMakeSentence(MakeSentence):
     # 返却文章を作る 
     def makeSentence(self,dictionary,request):
         
-        dicReturn = {'sentence':'','want_objs':dictionary,'what_ask':''}
+        dicReturn = {'sentence':'','what_ask':''}
+        
+        util.log(dicReturn)
 
         # 質問内容
-        what_ask = request.GET.get(key="what_ask", default="")
+        what_ask = request.GET.get(key="want_objs", default="")
 
         if what_ask == 'LOC':
             dicReturn['sentence'] = '続いて希望の職種はなんですか'
