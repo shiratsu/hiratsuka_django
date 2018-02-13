@@ -107,7 +107,7 @@ class ConversationAnalysis(metaclass=ABCMeta):
                 if pos3 == '地域':
                     aryIfTrue.append('True')
                 elif pos3 == '一般':    
-                    aryIfTrue.append('False')
+                    aryIfTrue.append('True')
                 elif pos3 == '組織':    
                     aryIfTrue.append('False')
             else:
