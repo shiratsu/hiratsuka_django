@@ -10,14 +10,21 @@ class ShotMakeSentence(MakeSentence):
         
         dicReturn = {'sentence':'','what_ask':''}
         
-        util.log(dicReturn)
-
         # 質問内容
-        what_ask = request.GET.get(key="want_objs", default="")
+        what_ask = request.GET.get(key="what_ask", default="")
 
         if what_ask == 'LOC':
-            dicReturn['sentence'] = '続いて希望の職種はなんですか'
-            dicReturn['what_ask'] = 'JOB'
+            if dictionary['LOC']['val'] != '':
+                if dictionary['LOC']['if_true'] == '1':
+                    dicReturn['sentence'] = '続いて希望の職種はなんですか'
+                    dicReturn['what_ask'] = 'JOB'
+                else:
+                    dicReturn['sentence'] = 'それは地名ですか？'
+                    dicReturn['what_ask'] = 'LOC'
+                    
+            else:
+                dicReturn['sentence'] = 'すみません、もう一度希望勤務地をお聞かせください。'
+                dicReturn['what_ask'] = 'LOC'
 
         util.log(dicReturn)
         

@@ -134,10 +134,48 @@ class ConversationAnalysis(metaclass=ABCMeta):
             (surface, feature) = chunk.split('\t')
             #品詞を取得
             features = feature.split(",")
-            pos = features[0]
-            if pos in [ '名詞','動詞']:
+            features.insert(surface)
+            pos = features[1]
+            if pos in [ '名詞','動詞' ]:
                 aryFeatures.append(features)
         return aryFeatures
+
+    # 形態素解析の情報から固有表現を取り出す
+    def getNERByKeitaiSokaiseki(self,aryFeatures):
+
+        aryLoc = []
+        aryName = []
+        dicReturn = {'val':'','if_true':'0'}
+        aryIfTrueLoc = []
+
+        for features in aryFeatures:
+            #品詞を取得
+            word = features[0]
+            pos2 = features[2]
+            pos3 = features[3]
+            if pos2 == '固有名詞' and pos3 in [ '地域','一般','組織']:
+                #単語を取得
+                word = surface
+                aryLoc.append(word)
+
+                if pos3 == '地域':
+                    aryIfTrueLoc.append('True')
+                elif pos3 == '一般':    
+                    aryIfTrueLoc.append('False')
+                elif pos3 == '組織':    
+                    aryIfTrueLoc.append('False')
+            elif pos1 == '名詞' and pos2 == '固有名詞' and pos3 == '人名':
+                #単語を取得
+                aryName.append(word)
+                continue
+        
+        strLoc = ''.join(aryLoc)
+        strName = ''.join(aryName)
+        dicReturn['PSN']['val'] = strName
+        dicReturn['LOC']['val'] = strLoc
+        dicReturn['LOC']['if_true'] = '1' if 'False' not in aryIfTrueLoc  else '0'
+
+        return dicReturn
 
 
     # マッチオブジェクトから、必要なもの取り出す
