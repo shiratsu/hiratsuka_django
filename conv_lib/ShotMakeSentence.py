@@ -11,7 +11,7 @@ class ShotMakeSentence(MakeSentence):
         dicReturn = {'sentence':'','what_ask':''}
         
         # 質問内容
-        what_ask = request.GET.get(key="what_ask", default="")
+        what_ask = request.POST["what_ask"]
 
         if what_ask == 'LOC':
             if dictionary['LOC']['val'] != '':

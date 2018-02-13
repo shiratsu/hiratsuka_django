@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from django.shortcuts import render
+from django.views.decorators.csrf import csrf_exempt
 
 # Create your views here.
 
@@ -14,6 +15,7 @@ import json
 
 
 # 言語解析
+@csrf_exempt
 def index(request):
 
     # Get an instance of a logger
@@ -37,5 +39,5 @@ def index(request):
     
     #util.log(dicReturn)
 
-    strJson = json.dumps(dicReturn)    
+    strJson = json.dumps(dicReturn, ensure_ascii=False)    
     return HttpResponse(strJson, content_type='application/json; charset=UTF-8')

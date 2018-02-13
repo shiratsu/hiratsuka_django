@@ -13,7 +13,7 @@ def checkRequired(request,aryRequired):
 
     for strRequired in aryRequired:
 
-        if request.GET.get(strRequired) == '':
+        if request.POST[strRequired] == '':
             aryMissing.append(strRequired)         
     
     return aryMissing

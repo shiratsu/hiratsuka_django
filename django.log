@@ -14,3 +14,31 @@
 [INFO]	asctime:2018-02-13 01:00:22,853	module:util	message:{'sentence': '', 'what_ask': ''}	process:42459	thread:123145462444032
 [INFO]	asctime:2018-02-13 01:26:16,538	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:51598	thread:123145387958272
 [INFO]	asctime:2018-02-13 01:26:16,539	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:51598	thread:123145387958272
+[INFO]	asctime:2018-02-13 04:44:41,501	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 04:44:41,501	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 06:52:25,106	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 06:52:25,107	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 12:50:39,106	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 12:50:39,111	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 12:52:55,507	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 12:52:55,507	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:04:48,197	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:04:48,197	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:07:45,119	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:07:45,120	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:09:02,580	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:09:02,581	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:10:51,007	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:10:51,007	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:76898	thread:123145356525568
+[INFO]	asctime:2018-02-13 13:14:01,328	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:14:01,329	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:38:24,581	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:38:24,581	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:39:26,351	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:39:26,351	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:47:16,076	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:47:16,077	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:59:24,989	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 13:59:24,989	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 14:07:11,941	module:util	message:{'LOC': {'val': '神奈川県', 'if_true': '0'}}	process:73605	thread:123145481904128
+[INFO]	asctime:2018-02-13 14:07:11,942	module:util	message:{'sentence': 'それは地名ですか？', 'what_ask': 'LOC'}	process:73605	thread:123145481904128

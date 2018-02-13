@@ -14,10 +14,10 @@ class ShotConversationAnalysis(ConversationAnalysis):
         dicReturn = {}
 
         # 解析文を取得
-        sentence = request.GET.get(key="sentence", default="")
+        sentence = request.POST["sentence"]
 
         # 取得したいもの
-        what_ask = request.GET.get(key="what_ask", default="")
+        what_ask = request.POST["what_ask"]
 
         # ループで回して処理をしていく
         if what_ask == 'LOC':
