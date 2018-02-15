@@ -9,9 +9,7 @@ class ShotConversationAnalysis(ConversationAnalysis):
         self.dicConvAnalytics = {'LOC':'','JOB':'','MONEY':''}
 
     # 文章解析PG
-    def sentenceAnalysis(self,request):
-
-        dicReturn = {}
+    def sentenceAnalysis(self,request,dicCache):
 
         # 解析文を取得
         sentence = request.POST["sentence"]
@@ -21,10 +19,12 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
         # ループで回して処理をしていく
         if what_ask == 'LOC':
-            dicReturn['LOC'] = self.getLocate(sentence)
-            self.dicConvAnalytics['LOC'] = dicReturn['LOC'] 
+            dicCache['LOC'] = self.getLocate(sentence)
+            #self.dicConvAnalytics['LOC'] = dicReturn['LOC'] 
+        elif what_ask == 'LOC_CONFIRM':
+            dicCache['LOC']['if_true'] = self.getConfirm(sentence)
         
-        return dicReturn
+        return dicCache
 
 
     # 職種を取得

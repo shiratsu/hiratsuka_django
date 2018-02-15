@@ -12,7 +12,7 @@ class ConversationAnalysis(metaclass=ABCMeta):
 
 
     @abstractmethod
-    def sentenceAnalysis(self,sent):
+    def sentenceAnalysis(self,sent,dicCache):
         pass
 
     # 文章から人名を取得(mecabで解析して取得する。)
@@ -175,7 +175,25 @@ class ConversationAnalysis(metaclass=ABCMeta):
         dicReturn['LOC']['val'] = strLoc
         dicReturn['LOC']['if_true'] = '1' if 'False' not in aryIfTrueLoc  else '0'
 
+
+
         return dicReturn
+
+    # 確認を行う
+    def getConfirm(self,sent):
+        aryYes = ['はい','そうです','OK','YES','合ってます','あってます','間違いない']
+
+        strReturn = '0'
+
+        node = self.mecab.parse(sent)
+        for chunk in node.splitlines()[:-1]:
+            (surface, feature) = chunk.split('\t')
+            
+            if surface in aryYes:
+                strReturn = '1'
+
+        return strReturn
+
 
 
     # マッチオブジェクトから、必要なもの取り出す
