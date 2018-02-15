@@ -20,11 +20,19 @@ class ShotMakeSentence(MakeSentence):
                     dicReturn['what_ask'] = 'JOB'
                 else:
                     dicReturn['sentence'] = 'それは地名ですか？'
-                    dicReturn['what_ask'] = 'LOC'
+                    dicReturn['what_ask'] = 'LOC_CONFIRM'
                     
             else:
                 dicReturn['sentence'] = 'すみません、もう一度希望勤務地をお聞かせください。'
                 dicReturn['what_ask'] = 'LOC'
+        elif what_ask == 'LOC_CONFIRM' and dictionary['LOC']['if_true'] == '1':
+            dicReturn['sentence'] = '続いて希望の職種はなんですか'
+            dicReturn['what_ask'] = 'JOB'
+        
+        elif what_ask == 'JOB' and dictionary['JOB']['val'] != '':  
+            dicReturn['sentence'] = '給与はいくらぐらいを希望されていますか'
+            dicReturn['what_ask'] = 'MONEY'
+
 
         util.log(dicReturn)
         

@@ -4,8 +4,10 @@ from django.shortcuts import render
 
 from django.http import HttpResponse
 from hiratsuka_lib import hiratsuka_test
+from django.core.cache import cache
 
 def index(request):
+    cache.set('my_key', 'hello, world!', 120)
     return HttpResponse("Hello, world. You're at the polls index.")
 
 
