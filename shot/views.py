@@ -56,9 +56,11 @@ def index(request):
     #util.log(dicReturn)
 
     # mysql cacheに格納
+    # cacheの有効期限は１分
+    # 有効期限過ぎてもcacheはDBに残っているので、１時間に一回cacheのお掃除を別のスクリプトでやる
     strJsonCache = json.dumps(dicCache, ensure_ascii=False)    
     util.log(strJsonCache)
-    cache.set(conversation_id, strJsonCache,120)
+    cache.set(conversation_id, strJsonCache,60)
 
     strJson = json.dumps(dicReturn, ensure_ascii=False)    
     return HttpResponse(strJson, content_type='application/json; charset=UTF-8')
