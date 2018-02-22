@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 from .conversationAnalysis import ConversationAnalysis
-from .make_crf_model import CorpusReader
 from common_lib import convert_kansuuji
 from common_lib import convert_for_crf
+from common_lib import util
 import pycrfsuite
 
 
@@ -98,6 +98,13 @@ class ShotConversationAnalysis(ConversationAnalysis):
         strResult = ''
         i = 0
         aryInfo = []
+        aryPredict = []
+
+        util.log("----------------------")
+        util.log(tokenlist)
+        util.log(predictlist)
+        util.log("----------------------")
+
 
         for i,p in enumerate(predictlist):
             
@@ -105,9 +112,13 @@ class ShotConversationAnalysis(ConversationAnalysis):
             if p in aryWantExtract:
                 if tokenlist[i] != 'は':
                     aryInfo.append(tokenlist[i])
+
+                aryPredict.append(p)
         
         # aryInfoに中身が入っていれば、結果を作成
-        if len(aryInfo) > 0:
-            strResult = ','.join(aryInfo)
+        if len(aryInfo) > 0  \
+            and 'B-MNYUNIT' in aryPredict \
+            and 'B-MONEY' in aryPredict: 
+            strResult = ''.join(aryInfo)
 
         return strResult

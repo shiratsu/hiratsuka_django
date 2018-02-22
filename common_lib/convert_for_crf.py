@@ -175,7 +175,7 @@ def sent2features(sent):
 def sent2labels(sent):
     return [morph[-1] for morph in sent]
 
-
+# 形態素解析して分かち書きされたものだけ取り出す
 def sent2tokens(sent):
     return [morph[0] for morph in sent]
 

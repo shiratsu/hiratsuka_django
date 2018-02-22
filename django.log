@@ -433,3 +433,213 @@
 [INFO]	asctime:2018-02-19 19:24:45,521	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:23751	thread:123145572663296
 [INFO]	asctime:2018-02-19 19:24:45,522	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:23751	thread:123145572663296
 [INFO]	asctime:2018-02-19 19:24:45,522	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:23751	thread:123145572663296
+[INFO]	asctime:2018-02-22 09:25:19,697	module:util	message:None	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:19,802	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:19,802	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:19,802	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:22,615	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:22,621	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:22,621	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:25:22,621	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:02,616	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:02,623	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': '月給', 'if_true': '1'}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:02,623	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:02,623	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "月給", "if_true": "1"}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:10,727	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "月給", "if_true": "1"}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:10,730	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': '月給', 'if_true': '1'}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:10,730	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:26:10,730	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "月給", "if_true": "1"}}	process:34562	thread:123145504944128
+[INFO]	asctime:2018-02-22 09:47:18,424	module:util	message:None	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:18,439	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:18,439	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:18,439	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:21,206	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:21,212	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:21,212	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:21,212	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:32,731	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:32,742	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': '日給', 'if_true': '1'}}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:32,742	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:47:32,742	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "日給", "if_true": "1"}}	process:56942	thread:123145314856960
+[INFO]	asctime:2018-02-22 09:54:09,806	module:util	message:None	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:09,817	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:09,817	module:util	message:what_ask------------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:09,817	module:util	message:LOC	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:09,817	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:09,817	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:15,313	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:15,319	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:15,319	module:util	message:what_ask------------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:15,319	module:util	message:JOB	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:15,320	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:15,320	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:43,134	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:43,148	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': '日給', 'if_true': '1'}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:43,148	module:util	message:what_ask------------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:43,148	module:util	message:JOB	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:43,149	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:54:43,149	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "日給", "if_true": "1"}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:12,099	module:util	message:None	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:12,109	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:12,110	module:util	message:what_ask------------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:12,110	module:util	message:LOC	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:12,110	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:12,110	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:15,258	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:15,264	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:15,264	module:util	message:what_ask------------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:15,264	module:util	message:JOB	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:15,265	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:15,265	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,274	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,321	module:util	message:----------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,321	module:util	message:['日給', '10000円', 'で']	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,321	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,321	module:util	message:----------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,322	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給,10000円', 'if_true': '1'}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,322	module:util	message:what_ask------------------------	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,322	module:util	message:MONEY	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,322	module:util	message:{'sentence': '確認させていただきます \n            希望勤務地：東京 \n            希望職種：コンビニ\n            希望給与：日給,10000円', 'what_ask': 'CONFIRM'}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 09:56:40,322	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給,10000円", "if_true": "1"}}	process:57273	thread:123145482637312
+[INFO]	asctime:2018-02-22 10:00:49,147	module:util	message:None	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:49,157	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:49,158	module:util	message:what_ask------------------------	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:49,158	module:util	message:LOC	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:49,158	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:49,158	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:52,416	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:52,421	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:52,422	module:util	message:what_ask------------------------	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:52,422	module:util	message:JOB	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:52,422	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:00:52,422	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,879	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:----------------------	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:['日給', '10000円', 'で']	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:----------------------	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:what_ask------------------------	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:MONEY	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,897	module:util	message:{'sentence': '確認させていただきます \n            希望勤務地：東京 \n            希望職種：コンビニ\n            希望給与：日給10000円', 'what_ask': 'CONFIRM'}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:01:01,898	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:57775	thread:123145431158784
+[INFO]	asctime:2018-02-22 10:26:02,391	module:util	message:None	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:02,406	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:02,406	module:util	message:what_ask------------------------	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:02,406	module:util	message:LOC	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:02,406	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:02,406	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:04,476	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:04,482	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:04,482	module:util	message:what_ask------------------------	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:04,482	module:util	message:JOB	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:04,482	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:04,482	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,835	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,852	module:util	message:----------------------	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,852	module:util	message:['日給', '10000円', 'で']	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,852	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,852	module:util	message:----------------------	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,852	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,853	module:util	message:what_ask------------------------	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,853	module:util	message:MONEY	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,853	module:util	message:{'sentence': '確認させていただきます <br /> \n            希望勤務地：東京 <br /> \n            希望職種：コンビニ <br />\n            希望給与：日給10000円 <br />\n            こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:26:09,853	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:59390	thread:123145429434368
+[INFO]	asctime:2018-02-22 10:46:12,506	module:util	message:None	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:12,520	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:12,520	module:util	message:what_ask------------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:12,521	module:util	message:LOC	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:12,521	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:12,521	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:15,879	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:15,884	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:15,884	module:util	message:what_ask------------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:15,884	module:util	message:JOB	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:15,884	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:15,885	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,056	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,072	module:util	message:----------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:['日給', '10000']	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:['B-OTHER', 'B-OTHER']	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:----------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:what_ask------------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:MONEY	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:{'sentence': '', 'what_ask': ''}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:23,073	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,749	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,755	module:util	message:----------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,755	module:util	message:['日給', '10000円', 'で']	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,755	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,755	module:util	message:----------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,758	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': '', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,758	module:util	message:what_ask------------------------	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,758	module:util	message:MONEY	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,758	module:util	message:{'sentence': '確認させていただきます \n \n            希望勤務地：東京 \n \n            希望職種：コンビニ \n\n            希望給与：日給10000円 \n\n            こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:46:27,758	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:59670	thread:123145515057152
+[INFO]	asctime:2018-02-22 10:48:31,757	module:util	message:None	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:31,768	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:31,768	module:util	message:what_ask------------------------	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:31,768	module:util	message:LOC	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:31,768	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:31,769	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:34,354	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:34,360	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:34,360	module:util	message:what_ask------------------------	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:34,360	module:util	message:JOB	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:34,360	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:34,360	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,779	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,795	module:util	message:----------------------	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,795	module:util	message:['日給', '10000円', 'で']	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,795	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,796	module:util	message:----------------------	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,803	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,803	module:util	message:what_ask------------------------	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,803	module:util	message:MONEY	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,803	module:util	message:{'sentence': '確認させていただきます\n \n            希望勤務地：東京\n \n            希望職種：コンビニ\n\n            希望給与：日給10000円\n\n            こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:48:39,804	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60628	thread:123145400279040
+[INFO]	asctime:2018-02-22 10:49:30,729	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:30,741	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'CONFIRM', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:30,742	module:util	message:what_ask------------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:30,742	module:util	message:LOC	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:30,742	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:30,742	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:32,599	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:32,605	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:32,605	module:util	message:what_ask------------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:32,605	module:util	message:JOB	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:32,605	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:32,606	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,287	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,307	module:util	message:----------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,307	module:util	message:['日給', '10000円', 'で']	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,307	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,307	module:util	message:----------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,307	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,308	module:util	message:what_ask------------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,308	module:util	message:MONEY	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,308	module:util	message:{'sentence': '確認させていただきます \n            希望勤務地：東京 \n            希望職種：コンビニ\n            希望給与：日給10000円\n            こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:49:37,308	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:41,304	module:util	message:None	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:41,316	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:41,316	module:util	message:what_ask------------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:41,317	module:util	message:LOC	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:41,317	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:41,317	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:43,653	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:43,659	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:43,659	module:util	message:what_ask------------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:43,659	module:util	message:JOB	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:43,659	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:43,659	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,422	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,434	module:util	message:----------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,434	module:util	message:['日給', '10000円', 'で']	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,434	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,434	module:util	message:----------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,440	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:what_ask------------------------	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:MONEY	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:{'sentence': '確認させていただきます \n            希望勤務地：東京 \n            希望職種：コンビニ\n            希望給与：日給10000円\n            こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496

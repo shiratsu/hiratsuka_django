@@ -12,6 +12,8 @@ class ShotMakeSentence(MakeSentence):
         
         # 質問内容
         what_ask = request.POST["what_ask"]
+        util.log("what_ask------------------------")
+        util.log(what_ask)
 
         if what_ask == 'LOC':
             if dictionary['LOC']['val'] != '':
@@ -32,6 +34,14 @@ class ShotMakeSentence(MakeSentence):
         elif what_ask == 'JOB' and dictionary['JOB']['val'] != '':  
             dicReturn['sentence'] = '給与はいくらぐらいを希望されていますか'
             dicReturn['what_ask'] = 'MONEY'
+
+        elif what_ask == 'MONEY' and dictionary['MONEY']['val'] != '':  
+            dicReturn['sentence'] = """確認させていただきます 
+            希望勤務地："""+dictionary['LOC']['val']+""" 
+            希望職種："""+dictionary['JOB']['val']+"""
+            希望給与："""+dictionary['MONEY']['val']+"""
+            こちらでお間違いないでしょうか。"""
+            dicReturn['what_ask'] = 'CONFIRM'
 
 
         util.log(dicReturn)
