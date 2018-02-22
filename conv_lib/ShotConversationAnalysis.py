@@ -21,24 +21,37 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
         # 取得したいもの
         what_ask = request.POST["what_ask"]
+        
+        # 以下は今回取得したいものを上から順に
+        dicLoc = self.getLocate(sentence)
+        
+        dicLocif_true = self.getConfirm(sentence)
+        
+        dicJob = self.getJobKind(sentence)
 
-        # ループで回して処理をしていく
-        if what_ask == 'LOC':
-            dicCache['LOC'] = self.getLocate(sentence)
-            #self.dicConvAnalytics['LOC'] = dicReturn['LOC'] 
-        elif what_ask == 'LOC_CONFIRM':
-            dicCache['LOC']['if_true'] = self.getConfirm(sentence)
-        
-        # 暫定のため、あまり作り込んでない
-        elif what_ask == 'JOB':
-            dicCache['JOB'] = self.getJobKind(sentence)
-        
-        # 給与
-        elif what_ask == 'MONEY':
-            dicCache['MONEY'] = self.getMoneyInfo(sentence)
-        
+        dicMoney = self.getMoneyInfo(sentence)
+
+        # 最後に取得したものをcacheと比較して、セット
+        dicCache = self.checkGetData(dicLoc,dicLocif_true,dicJob,dicMoney,dicCache)
+
         return dicCache
 
+
+    # 取得したものをチェックしてセット
+    def checkGetData(self,dicLoc,dicLocif_true,dicJob,dicMoney,dicCache):
+        if dicLoc['val'] != None:
+            dicCache['LOC'] = dicLoc
+        
+        elif dicJob['val'] != None:
+            dicCache['JOB'] = dicJob
+        
+        elif dicMoney['val'] != None:
+            dicCache['MONEY'] = dicMoney
+        
+        elif dicLocif_true['if_true'] == '1':
+            dicCache['LOC']['if_true'] = '1'
+
+        return dicCache
 
     # 職種を取得
     def getJobKind(self,sent):
