@@ -32,7 +32,6 @@ def index(request):
     if cacheval != None:
         dicCache = json.loads(cacheval)
 
-
     # 必須チェック
     aryMissing = util.checkRequired(request,['conversation_id','sentence','what_ask'])
     
@@ -40,11 +39,12 @@ def index(request):
         strMissing = ','.join(aryMissing)
         return HttpResponse("{'error':'"+strMissing+' are required'"}", content_type='application/json; charset=UTF-8')
 
+    # 解析obj
     anaObj = ShotConversationAnalysis.ShotConversationAnalysis() 
+    
+    # sentence作成obj
     makeObj = ShotMakeSentence.ShotMakeSentence() 
     
-    # 
-
     # 言語解析
     dicCache = anaObj.sentenceAnalysis(request,dicCache)
     

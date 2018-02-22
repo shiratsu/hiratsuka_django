@@ -31,17 +31,26 @@ class ShotMakeSentence(MakeSentence):
             dicReturn['sentence'] = '続いて希望の職種はなんですか'
             dicReturn['what_ask'] = 'JOB'
         
-        elif what_ask == 'JOB' and dictionary['JOB']['val'] != '':  
-            dicReturn['sentence'] = '給与はいくらぐらいを希望されていますか'
-            dicReturn['what_ask'] = 'MONEY'
+        elif what_ask == 'JOB':  
+            if dictionary['JOB']['val'] != '':
+                dicReturn['sentence'] = '給与はいくらぐらいを希望されていますか'
+                dicReturn['what_ask'] = 'MONEY'
+            else:
+                dicReturn['sentence'] = 'すみません、職種に関してよくわからなかったので、もう一度お願いします。'
+                dicReturn['what_ask'] = 'JOB'
 
-        elif what_ask == 'MONEY' and dictionary['MONEY']['val'] != '':  
-            dicReturn['sentence'] = """確認させていただきます 
-            希望勤務地："""+dictionary['LOC']['val']+""" 
-            希望職種："""+dictionary['JOB']['val']+"""
-            希望給与："""+dictionary['MONEY']['val']+"""
-            こちらでお間違いないでしょうか。"""
-            dicReturn['what_ask'] = 'CONFIRM'
+
+        elif what_ask == 'MONEY':  
+            if dictionary['MONEY']['val'] != '':
+                dicReturn['sentence'] = """確認させていただきます 
+                希望勤務地："""+dictionary['LOC']['val']+""" 
+                希望職種："""+dictionary['JOB']['val']+"""
+                希望給与："""+dictionary['MONEY']['val']+"""
+                こちらでお間違いないでしょうか。"""
+                dicReturn['what_ask'] = 'CONFIRM'
+            else:
+                dicReturn['sentence'] = 'すみません、給与に関してよくわからなかったので、もう一度お願いします。'
+                dicReturn['what_ask'] = 'MONEY'
 
 
         util.log(dicReturn)
