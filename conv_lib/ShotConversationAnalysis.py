@@ -21,7 +21,13 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
         # 取得したいもの
         what_ask = request.POST["what_ask"]
-        
+    
+        # 独自チェックを通す
+        if what_ask == 'CONFIRM':
+            dicConfirm = self.getConfirm(sentence)
+
+            return dicCache
+
         # 以下は今回取得したいものを上から順に
         dicLoc = self.getLocate(sentence)
         
@@ -39,18 +45,20 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
     # 取得したものをチェックしてセット
     def checkGetData(self,dicLoc,dicLocif_true,dicJob,dicMoney,dicCache):
-        if dicLoc['val'] != None:
+        
+        if dicLoc['val'] != '':
             dicCache['LOC'] = dicLoc
         
-        elif dicJob['val'] != None:
+        if dicJob['val'] != '':
             dicCache['JOB'] = dicJob
         
-        elif dicMoney['val'] != None:
+        if dicMoney['val'] != '':
             dicCache['MONEY'] = dicMoney
         
-        elif dicLocif_true['if_true'] == '1':
-            dicCache['LOC']['if_true'] = '1'
-
+        if 'if_true' in dicLocif_true:
+            if dicLocif_true['if_true'] == '1':
+                dicCache['LOC']['if_true'] = '1'
+        
         return dicCache
 
     # 職種を取得
@@ -64,7 +72,8 @@ class ShotConversationAnalysis(ConversationAnalysis):
             #品詞を取得
             features = feature.split(",")
             pos1 = features[0]
-            if pos1 == '名詞':
+            #if pos1 == '名詞':
+            if surface == 'コンビニ':
                 #単語を取得
                 strName = surface
                 break
@@ -73,6 +82,8 @@ class ShotConversationAnalysis(ConversationAnalysis):
             dicReturn['val'] = strName
             dicReturn['if_true'] = '1'
 
+        util.log('--------getJobKind--------')
+        util.log(dicReturn)
         return dicReturn
 
     # 給与の情報を取得
@@ -100,7 +111,7 @@ class ShotConversationAnalysis(ConversationAnalysis):
         # 給与の情報を取り出す
         strResult = self.getExtractInfo(tokenlist,predictlist,['B-MNYUNIT','B-MONEY','I-MONEY'])
 
-        if strResult is not None:
+        if strResult != '':
             dicReturn['val'] = strResult
             dicReturn['if_true'] = '1'
 
@@ -128,6 +139,7 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
                 aryPredict.append(p)
         
+        
         # aryInfoに中身が入っていれば、結果を作成
         if len(aryInfo) > 0  \
             and 'B-MNYUNIT' in aryPredict \
@@ -135,3 +147,8 @@ class ShotConversationAnalysis(ConversationAnalysis):
             strResult = ''.join(aryInfo)
 
         return strResult
+
+    def getConfirm(self,sentence):
+        
+        dicReturn = {'val':'','if_true':'0'}
+        return dicReturn

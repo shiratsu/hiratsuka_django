@@ -28,8 +28,7 @@ def shot(request):
     dicAnalytics = anaObj.sentenceAnalysis(request)
     
     # 返却文章作成
-    dicReturn = makeObj.makeSentence
-    (dicAnalytics,request)
+    dicReturn = makeObj.makeSentence(dicAnalytics,request)
     
     strJson = json.dumps(dicReturn)    
     return HttpResponse(strJson, content_type='application/json; charset=UTF-8')

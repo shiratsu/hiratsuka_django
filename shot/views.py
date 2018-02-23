@@ -26,12 +26,13 @@ def index(request):
 
     #キャッシュから会話を取得
     cacheval = cache.get(conversation_id)
-    util.log(cacheval)
     
     dicCache = {}
     if cacheval != None:
         dicCache = json.loads(cacheval)
 
+    util.log(dicCache)
+    util.log("---cacheVal---")
     # 必須チェック
     aryMissing = util.checkRequired(request,['conversation_id','sentence','what_ask'])
     

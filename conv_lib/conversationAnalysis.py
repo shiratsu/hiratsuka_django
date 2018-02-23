@@ -92,6 +92,10 @@ class ConversationAnalysis(metaclass=ABCMeta):
         aryIfTrue = []
         aryName = []
         node = self.mecab.parse(sent)
+        
+        strPattern = '\d+円'
+        objRe = re.compile(strPattern)
+        
         for chunk in node.splitlines()[:-1]:
             (surface, feature) = chunk.split('\t')
             #品詞を取得
@@ -99,7 +103,13 @@ class ConversationAnalysis(metaclass=ABCMeta):
             pos1 = features[0]
             pos2 = features[1]
             pos3 = features[2]
-            if pos1 == '名詞' and pos2 == '固有名詞' and pos3 in [ '地域','一般','組織']:
+        
+            m = objRe.match(surface)
+            
+            if pos1 == '名詞' \
+            and pos2 == '固有名詞' \
+            and pos3 in [ '地域','一般','組織'] \
+            and m is None:    
                 #単語を取得
                 word = surface
                 aryName.append(word)

@@ -643,3 +643,1008 @@
 [INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:MONEY	process:60696	thread:123145546858496
 [INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:{'sentence': '確認させていただきます \n            希望勤務地：東京 \n            希望職種：コンビニ\n            希望給与：日給10000円\n            こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:60696	thread:123145546858496
 [INFO]	asctime:2018-02-22 10:54:50,441	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:60696	thread:123145546858496
+[INFO]	asctime:2018-02-23 08:54:26,730	module:util	message:None	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:54:26,882	module:util	message:----------------------	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:54:26,882	module:util	message:['東京', 'で']	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:54:26,882	module:util	message:['B-OTHER', 'B-OTHER']	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:54:26,882	module:util	message:----------------------	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:54:26,883	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:56:30,254	module:util	message:None	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:56:30,291	module:util	message:----------------------	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:56:30,292	module:util	message:['東京', 'で', '働き', 'たい']	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:56:30,292	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:56:30,292	module:util	message:----------------------	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 08:56:30,293	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:8718	thread:123145554796544
+[INFO]	asctime:2018-02-23 09:07:22,989	module:util	message:None	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,013	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,014	module:util	message:['東京', 'で', '働き', 'たい']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,014	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,014	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,014	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,014	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:23,015	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,163	module:util	message:None	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,166	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,166	module:util	message:['東京', 'で']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,166	module:util	message:['B-OTHER', 'B-OTHER']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,166	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,167	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,167	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:30,167	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:33,525	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:33,534	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:33,534	module:util	message:['コンビニ', 'で']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:33,535	module:util	message:['B-OTHER', 'B-OTHER']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:33,535	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:33,535	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'what_ask': 'JOB'}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:51,273	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:51,278	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:51,278	module:util	message:['コンビニ', 'で']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:51,278	module:util	message:['B-OTHER', 'B-OTHER']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:51,279	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:07:51,279	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'what_ask': 'JOB'}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:10:27,453	module:util	message:None	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:10:27,460	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:10:27,460	module:util	message:['コンビニ', 'で']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:10:27,460	module:util	message:['B-OTHER', 'B-OTHER']	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:10:27,460	module:util	message:----------------------	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:10:27,461	module:util	message:{'LOC': {'val': '', 'if_true': '1'}}	process:9942	thread:123145426993152
+[INFO]	asctime:2018-02-23 09:15:36,645	module:util	message:None	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,658	module:util	message:----------------------	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,658	module:util	message:['コンビニ', 'で']	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,658	module:util	message:['B-OTHER', 'B-OTHER']	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,659	module:util	message:----------------------	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,659	module:util	message:{'LOC': {'val': '', 'if_true': '1'}}	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,659	module:util	message:{'sentence': '', 'what_ask': ''}	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,659	module:util	message:{'sentence': '', 'what_ask': ''}	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:15:36,659	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "what_ask": ""}	process:11804	thread:123145561649152
+[INFO]	asctime:2018-02-23 09:17:03,290	module:util	message:None	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,292	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,302	module:util	message:----------------------	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,302	module:util	message:['コンビニ', 'で']	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,302	module:util	message:['B-OTHER', 'B-OTHER']	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,302	module:util	message:----------------------	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,302	module:util	message:{'LOC': {'val': '', 'if_true': '1'}}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,302	module:util	message:{'sentence': '', 'what_ask': ''}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,303	module:util	message:{'sentence': '', 'what_ask': ''}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:03,303	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "what_ask": ""}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,491	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "what_ask": ""}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,492	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,495	module:util	message:----------------------	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,496	module:util	message:['コンビニ', 'で']	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,496	module:util	message:['B-OTHER', 'B-OTHER']	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,496	module:util	message:----------------------	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,496	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'what_ask': ''}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,497	module:util	message:{'sentence': '', 'what_ask': ''}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,497	module:util	message:{'sentence': '', 'what_ask': ''}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:17:14,497	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "what_ask": ""}	process:11922	thread:123145477189632
+[INFO]	asctime:2018-02-23 09:19:34,537	module:util	message:None	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,539	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,548	module:util	message:----------------------	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,548	module:util	message:['コンビニ', 'で']	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,548	module:util	message:['B-OTHER', 'B-OTHER']	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,548	module:util	message:----------------------	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,548	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:19:34,548	module:util	message:----------==============	process:12097	thread:123145317072896
+[INFO]	asctime:2018-02-23 09:20:11,085	module:util	message:None	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,086	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,096	module:util	message:----------------------	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,096	module:util	message:['コンビニ', 'で']	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,096	module:util	message:['B-OTHER', 'B-OTHER']	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,096	module:util	message:----------------------	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,096	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:11,097	module:util	message:----------==============	process:12166	thread:123145415299072
+[INFO]	asctime:2018-02-23 09:20:26,944	module:util	message:None	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,945	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,952	module:util	message:----------------------	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,952	module:util	message:['コンビニ', 'で']	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,952	module:util	message:['B-OTHER', 'B-OTHER']	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,953	module:util	message:----------------------	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,953	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:20:26,953	module:util	message:----------==============	process:12203	thread:123145439395840
+[INFO]	asctime:2018-02-23 09:22:35,610	module:util	message:None	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,611	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,621	module:util	message:----------------------	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,621	module:util	message:['コンビニ', 'で']	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,621	module:util	message:['B-OTHER', 'B-OTHER']	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,622	module:util	message:----------------------	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,622	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:22:35,622	module:util	message:----------==============	process:12678	thread:123145329520640
+[INFO]	asctime:2018-02-23 09:23:01,819	module:util	message:None	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,820	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,832	module:util	message:----------------------	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,833	module:util	message:['コンビニ', 'で']	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,833	module:util	message:['B-OTHER', 'B-OTHER']	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,833	module:util	message:----------------------	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,833	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:23:01,833	module:util	message:----------==============	process:12711	thread:123145344843776
+[INFO]	asctime:2018-02-23 09:27:27,240	module:util	message:None	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,242	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,251	module:util	message:----------------------	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,251	module:util	message:['コンビニ', 'で']	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,251	module:util	message:['B-OTHER', 'B-OTHER']	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,252	module:util	message:----------------------	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,252	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:27:27,252	module:util	message:----------==============	process:13003	thread:123145326448640
+[INFO]	asctime:2018-02-23 09:28:36,272	module:util	message:None	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,273	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,282	module:util	message:----------------------	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,282	module:util	message:['コンビニ', 'で']	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,282	module:util	message:['B-OTHER', 'B-OTHER']	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,282	module:util	message:----------------------	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,282	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,283	module:util	message:----------==============	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,283	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,283	module:util	message:----------==============	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,283	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:28:36,283	module:util	message:{'sentence': '', 'what_ask': ''}	process:13086	thread:123145507340288
+[INFO]	asctime:2018-02-23 09:30:37,017	module:util	message:None	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,019	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,030	module:util	message:----------------------	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,030	module:util	message:['コンビニ', 'で']	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,030	module:util	message:['B-OTHER', 'B-OTHER']	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,031	module:util	message:----------------------	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,031	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,031	module:util	message:----------==============	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,031	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,031	module:util	message:----------==============	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,031	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,032	module:util	message:{'sentence': '', 'what_ask': ''}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,032	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:30:37,032	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "MONEY"}	process:13238	thread:123145462628352
+[INFO]	asctime:2018-02-23 09:35:20,785	module:util	message:None	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,796	module:util	message:{'val': '東京', 'if_true': '1'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,805	module:util	message:----------------------	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,805	module:util	message:['東京', 'で']	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:['B-OTHER', 'B-OTHER']	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:----------------------	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:{'val': '東京', 'if_true': '1'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:----------==============	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:----------==============	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,806	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,807	module:util	message:{'sentence': '', 'what_ask': ''}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,807	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:20,807	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "JOB"}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,841	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "JOB"}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,848	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,851	module:util	message:----------------------	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,851	module:util	message:['コンビニ', 'で']	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,851	module:util	message:['B-OTHER', 'B-OTHER']	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,851	module:util	message:----------------------	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,851	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:----------==============	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}, 'what_ask': 'JOB'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:----------==============	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}, 'what_ask': 'JOB'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:{'sentence': '', 'what_ask': ''}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:22,852	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "MONEY"}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,636	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "MONEY"}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,643	module:util	message:{'val': '日給', 'if_true': '1'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,646	module:util	message:----------------------	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,646	module:util	message:['日給', '10000円', 'で']	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,646	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,646	module:util	message:----------------------	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,647	module:util	message:{'val': '日給', 'if_true': '1'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,647	module:util	message:----------==============	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,647	module:util	message:{'LOC': {'val': '10000円', 'if_true': '1'}, 'JOB': {'val': '日給', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}, 'what_ask': 'MONEY'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,647	module:util	message:----------==============	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,647	module:util	message:{'LOC': {'val': '10000円', 'if_true': '1'}, 'JOB': {'val': '日給', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}, 'what_ask': 'MONEY'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,647	module:util	message:{'sentence': '', 'what_ask': ''}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,648	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:35:28,648	module:util	message:{"LOC": {"val": "10000円", "if_true": "1"}, "JOB": {"val": "日給", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}, "what_ask": "JOB"}	process:13428	thread:123145322303488
+[INFO]	asctime:2018-02-23 09:38:54,854	module:util	message:None	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,855	module:util	message:{'val': '日給', 'if_true': '1'}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,864	module:util	message:----------------------	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,864	module:util	message:['日給', '10000円', 'で']	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,864	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,865	module:util	message:----------------------	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,865	module:util	message:----------------------	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,865	module:util	message:['B-MNYUNIT', 'B-MONEY']	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,865	module:util	message:['日給', '10000円']	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,866	module:util	message:----------------------	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,866	module:util	message:{'val': '日給', 'if_true': '1'}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,866	module:util	message:----------==============	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,866	module:util	message:{'LOC': {'val': '10000円', 'if_true': '1'}, 'JOB': {'val': '日給', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,866	module:util	message:----------==============	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,866	module:util	message:{'LOC': {'val': '10000円', 'if_true': '1'}, 'JOB': {'val': '日給', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,867	module:util	message:{'sentence': '', 'what_ask': ''}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,867	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:38:54,867	module:util	message:{"LOC": {"val": "10000円", "if_true": "1"}, "JOB": {"val": "日給", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}, "what_ask": "JOB"}	process:13810	thread:123145521156096
+[INFO]	asctime:2018-02-23 09:59:34,347	module:util	message:None	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,365	module:util	message:{'val': '東京', 'if_true': '1'}	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,377	module:util	message:----------------------	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,377	module:util	message:['東京', 'で', '働き', 'たい']	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,378	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,378	module:util	message:----------------------	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,378	module:util	message:----------------------	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,378	module:util	message:[]	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,378	module:util	message:[]	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,379	module:util	message:----------------------	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,379	module:util	message:{'val': '東京', 'if_true': '1'}	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,379	module:util	message:----------==============	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,380	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,380	module:util	message:----------==============	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,380	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 09:59:34,380	module:util	message:{'sentence': '', 'what_ask': ''}	process:14975	thread:123145323163648
+[INFO]	asctime:2018-02-23 10:00:14,334	module:util	message:None	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,336	module:util	message:{'val': '東京', 'if_true': '1'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,347	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,348	module:util	message:['東京', 'で', '働き', 'たい']	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,348	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,348	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,348	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,348	module:util	message:[]	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,349	module:util	message:[]	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,350	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,350	module:util	message:{'val': '東京', 'if_true': '1'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,350	module:util	message:----------==============	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,350	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,351	module:util	message:----------==============	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,351	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,351	module:util	message:{'sentence': '', 'what_ask': ''}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,351	module:util	message:{'sentence': '確認させていただきます \n        希望勤務地：東京 \n        希望職種：東京\n        希望給与：\n        こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:14,351	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "CONFIRM"}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,275	module:util	message:None	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,294	module:util	message:{'val': '東京', 'if_true': '1'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,300	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,300	module:util	message:['東京', 'で', '働き', 'たい']	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,300	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,300	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,300	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,301	module:util	message:[]	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,301	module:util	message:[]	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,301	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,301	module:util	message:{'val': '東京', 'if_true': '1'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,301	module:util	message:----------==============	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,302	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,302	module:util	message:----------==============	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,302	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,302	module:util	message:{'sentence': '', 'what_ask': ''}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,302	module:util	message:{'sentence': '確認させていただきます \n        希望勤務地：東京 \n        希望職種：東京\n        希望給与：\n        こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:00:39,303	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "CONFIRM"}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,470	module:util	message:None	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,490	module:util	message:{'val': '東京', 'if_true': '1'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,495	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,495	module:util	message:['東京', 'で', '働き', 'たい']	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:[]	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:[]	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:----------------------	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:{'val': '東京', 'if_true': '1'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:----------==============	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,496	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,497	module:util	message:----------==============	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,497	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,497	module:util	message:{'sentence': '', 'what_ask': ''}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,497	module:util	message:{'sentence': '確認させていただきます \n        希望勤務地：東京 \n        希望職種：東京\n        希望給与：\n        こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:13:11,497	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "CONFIRM"}	process:15106	thread:123145511133184
+[INFO]	asctime:2018-02-23 10:15:48,672	module:util	message:None	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,673	module:util	message:{'val': '東京', 'if_true': '1'}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,684	module:util	message:----------------------	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,684	module:util	message:['東京', 'で', '働き', 'たい']	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,684	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,685	module:util	message:----------------------	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,685	module:util	message:----------------------	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,685	module:util	message:[]	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,685	module:util	message:[]	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,685	module:util	message:----------------------	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,685	module:util	message:{}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,686	module:util	message:{'val': '東京', 'if_true': '1'}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,686	module:util	message:{'val': '', 'if_true': '1'}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,686	module:util	message:----------==============	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,686	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,686	module:util	message:----------==============	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,686	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,687	module:util	message:{'sentence': '', 'what_ask': ''}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,687	module:util	message:{'sentence': '確認させていただきます \n        希望勤務地：東京 \n        希望職種：東京\n        希望給与：\n        こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:15:48,687	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "CONFIRM"}	process:16447	thread:123145558523904
+[INFO]	asctime:2018-02-23 10:16:34,196	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "1"}, "what_ask": "CONFIRM"}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,198	module:util	message:{'val': '東京', 'if_true': '1'}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,207	module:util	message:----------------------	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,207	module:util	message:['東京', 'で', '働き', 'たい']	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,208	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,208	module:util	message:----------------------	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,208	module:util	message:----------------------	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,208	module:util	message:[]	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,208	module:util	message:[]	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,208	module:util	message:----------------------	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,209	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '1'}, 'what_ask': 'CONFIRM'}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,209	module:util	message:{'val': '東京', 'if_true': '1'}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,209	module:util	message:{'val': '', 'if_true': '0'}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,209	module:util	message:----------==============	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,209	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'CONFIRM'}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,209	module:util	message:----------==============	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,210	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '東京', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'CONFIRM'}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,210	module:util	message:{'sentence': '', 'what_ask': ''}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,210	module:util	message:{'sentence': '', 'what_ask': ''}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 10:16:34,210	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "東京", "if_true": "1"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": ""}	process:16524	thread:123145432743936
+[INFO]	asctime:2018-02-23 13:22:59,530	module:util	message:None	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,613	module:util	message:{'val': '', 'if_true': '0'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,660	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:['東京', 'で', '働き', 'たい']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:[]	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:[]	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,661	module:util	message:{}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{'val': '', 'if_true': '0'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{'val': '', 'if_true': '0'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:----------==============	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:----------==============	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{'sentence': '', 'what_ask': ''}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:22:59,662	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "", "if_true": "0"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "JOB"}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,968	module:util	message:None	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,976	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:['コンビニ', 'で']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:['B-OTHER', 'B-OTHER']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:[]	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:[]	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:{}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,979	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,980	module:util	message:{'val': '', 'if_true': '0'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,980	module:util	message:----------==============	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,993	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,993	module:util	message:----------==============	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,993	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,993	module:util	message:{'sentence': '', 'what_ask': ''}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,994	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:23:09,994	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "LOC"}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,772	module:util	message:None	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,780	module:util	message:{'val': '', 'if_true': '0'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:['日給', '10000円', 'で']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:['B-MNYUNIT', 'B-MONEY']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:['日給', '10000円']	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,783	module:util	message:----------------------	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,784	module:util	message:{}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,784	module:util	message:{'val': '', 'if_true': '0'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,784	module:util	message:{'val': '日給10000円', 'if_true': '1'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,789	module:util	message:----------==============	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,789	module:util	message:{'LOC': {'val': '10000円', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,789	module:util	message:----------==============	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,789	module:util	message:{'LOC': {'val': '10000円', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,789	module:util	message:{'sentence': '', 'what_ask': ''}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,789	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:24:45,790	module:util	message:{"LOC": {"val": "10000円", "if_true": "1"}, "JOB": {"val": "", "if_true": "0"}, "MONEY": {"val": "日給10000円", "if_true": "1"}, "what_ask": "JOB"}	process:5491	thread:123145370398720
+[INFO]	asctime:2018-02-23 13:33:54,788	module:util	message:None	process:7057	thread:123145522372608
+[INFO]	asctime:2018-02-23 13:34:43,793	module:util	message:None	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,795	module:util	message:{'val': '', 'if_true': '0'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,801	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:['日給', '10000円', 'で']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:['B-MNYUNIT', 'B-MONEY']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:['日給', '10000円']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:{}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,802	module:util	message:{'val': '', 'if_true': '0'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:{'val': '日給10000円', 'if_true': '1'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:----------==============	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:----------==============	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:{'sentence': '', 'what_ask': ''}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 13:34:43,803	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "", "if_true": "0"}, "MONEY": {"val": "日給10000円", "if_true": "1"}, "what_ask": "LOC"}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,078	module:util	message:None	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,080	module:util	message:{'val': '', 'if_true': '0'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:['東京', 'で']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:['B-OTHER', 'B-OTHER']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:[]	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:[]	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,086	module:util	message:{}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{'val': '', 'if_true': '0'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{'val': '', 'if_true': '0'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:----------==============	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:----------==============	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{'sentence': '', 'what_ask': ''}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:31:05,087	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "", "if_true": "0"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "JOB"}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,605	module:util	message:None	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,606	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,608	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:['コンビニ', 'で']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:['B-OTHER', 'B-OTHER']	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:[]	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:[]	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:----------------------	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:{}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:{'val': '', 'if_true': '0'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,609	module:util	message:----------==============	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,610	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,610	module:util	message:----------==============	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,610	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,610	module:util	message:{'sentence': '', 'what_ask': ''}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,610	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:33:22,610	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "LOC"}	process:7181	thread:123145378930688
+[INFO]	asctime:2018-02-23 15:38:08,055	module:util	message:{}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,055	module:util	message:---cacheVal---	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,057	module:util	message:{'val': '', 'if_true': '0'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:['東京', 'で']	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:['B-OTHER', 'B-OTHER']	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:[]	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,064	module:util	message:[]	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{'val': '', 'if_true': '0'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{'val': '', 'if_true': '0'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:----------==============	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:----------==============	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{'sentence': '', 'what_ask': ''}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,065	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:08,066	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "", "if_true": "0"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "JOB"}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,332	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,332	module:util	message:---cacheVal---	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,333	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:['コンビニ', 'で']	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:['B-OTHER', 'B-OTHER']	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:[]	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:[]	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,336	module:util	message:----------------------	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,337	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,337	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,337	module:util	message:{'val': '', 'if_true': '0'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,337	module:util	message:----------==============	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,346	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,346	module:util	message:----------==============	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,346	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,347	module:util	message:{'sentence': '', 'what_ask': ''}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,347	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:38:21,347	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "LOC"}	process:15857	thread:123145526935552
+[INFO]	asctime:2018-02-23 15:41:00,647	module:util	message:{}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,647	module:util	message:---cacheVal---	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,649	module:util	message:--------getJobKind--------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,649	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,656	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,656	module:util	message:['コンビニ', 'で']	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,656	module:util	message:['B-OTHER', 'B-OTHER']	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,656	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:[]	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:[]	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:{}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:{'val': '', 'if_true': '0'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:----------==============	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,657	module:util	message:----------==============	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,658	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,658	module:util	message:{'sentence': '', 'what_ask': ''}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,658	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:00,658	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "LOC"}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,652	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'LOC'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,652	module:util	message:---cacheVal---	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,653	module:util	message:--------getJobKind--------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,653	module:util	message:{'val': '', 'if_true': '0'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,656	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,656	module:util	message:['東京', 'で']	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,656	module:util	message:['B-OTHER', 'B-OTHER']	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,656	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,656	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,656	module:util	message:[]	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,657	module:util	message:[]	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,657	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,657	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'LOC'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,662	module:util	message:{'val': '', 'if_true': '0'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,662	module:util	message:{'val': '', 'if_true': '0'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,662	module:util	message:----------==============	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,662	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'LOC'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,663	module:util	message:----------==============	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,663	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'LOC'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,663	module:util	message:{'sentence': '', 'what_ask': ''}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,663	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:41:50,663	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "JOB": {"val": "", "if_true": "0"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "JOB"}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,707	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,707	module:util	message:---cacheVal---	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,708	module:util	message:--------getJobKind--------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,709	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,711	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:['コンビニ', 'で']	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:['B-OTHER', 'B-OTHER']	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:[]	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:[]	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:----------------------	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'JOB': {'val': '', 'if_true': '0'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,712	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,720	module:util	message:{'val': '', 'if_true': '0'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:----------==============	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:----------==============	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:{'LOC': {'val': '', 'if_true': '1'}, 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '', 'if_true': '0'}, 'what_ask': 'JOB'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:{'sentence': '', 'what_ask': ''}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 15:42:08,721	module:util	message:{"LOC": {"val": "", "if_true": "1"}, "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "", "if_true": "0"}, "what_ask": "LOC"}	process:16289	thread:123145369505792
+[INFO]	asctime:2018-02-23 21:29:41,623	module:util	message:{}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,624	module:util	message:---cacheVal---	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,630	module:util	message:--------getJobKind--------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,630	module:util	message:{'val': '', 'if_true': '0'}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,640	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,640	module:util	message:['東京', 'で']	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,640	module:util	message:['B-OTHER', 'B-OTHER']	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,640	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,640	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:[]	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:[]	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:{}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:{'val': '', 'if_true': '0'}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:{'val': '', 'if_true': '0'}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:----------==============	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,641	module:util	message:----------==============	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,642	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:29:41,642	module:util	message:{'sentence': '', 'what_ask': ''}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,648	module:util	message:{}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,649	module:util	message:---cacheVal---	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,650	module:util	message:--------getJobKind--------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,650	module:util	message:{'val': '', 'if_true': '0'}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:['東京', 'で', '働き', 'たい']	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:[]	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:[]	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,653	module:util	message:----------------------	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:{}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:{'val': '', 'if_true': '0'}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:{'val': '', 'if_true': '0'}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:----------==============	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:----------==============	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:30:35,654	module:util	message:{'sentence': '', 'what_ask': ''}	process:16717	thread:123145411317760
+[INFO]	asctime:2018-02-23 21:33:12,564	module:util	message:{}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,565	module:util	message:---cacheVal---	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,566	module:util	message:--------getJobKind--------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,566	module:util	message:{'val': '', 'if_true': '0'}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,575	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,575	module:util	message:['東京', 'で']	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:['B-OTHER', 'B-OTHER']	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:[]	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:[]	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:{}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:{'val': '', 'if_true': '0'}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:{'val': '', 'if_true': '0'}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,576	module:util	message:----------==============	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,577	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,577	module:util	message:----------==============	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,577	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:12,577	module:util	message:{'sentence': '', 'what_ask': ''}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,642	module:util	message:{}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,642	module:util	message:---cacheVal---	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,643	module:util	message:--------getJobKind--------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,643	module:util	message:{'val': '', 'if_true': '0'}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:['東京', 'で', '働き', 'たい']	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:[]	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:[]	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:----------------------	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,646	module:util	message:{}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:{'val': '', 'if_true': '0'}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:{'val': '', 'if_true': '0'}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:----------==============	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:----------==============	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:33:54,647	module:util	message:{'sentence': '', 'what_ask': ''}	process:29556	thread:123145322930176
+[INFO]	asctime:2018-02-23 21:38:52,719	module:util	message:{}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,720	module:util	message:---cacheVal---	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,722	module:util	message:--------getJobKind--------	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,722	module:util	message:{'val': '', 'if_true': '0'}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,731	module:util	message:----------------------	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,731	module:util	message:['東京', 'で']	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:['B-OTHER', 'B-OTHER']	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:----------------------	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:----------------------	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:[]	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:[]	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:----------------------	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:{}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:{'val': '', 'if_true': '0'}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:{'val': '', 'if_true': '0'}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,732	module:util	message:----------==============	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:----------==============	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:----dictionary-----	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:----dictionary-----	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:----aryNot-----	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:[]	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:38:52,733	module:util	message:----aryNot-----	process:30136	thread:123145506701312
+[INFO]	asctime:2018-02-23 21:41:00,390	module:util	message:{}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,390	module:util	message:---cacheVal---	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,392	module:util	message:--------getJobKind--------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,392	module:util	message:{'val': '', 'if_true': '0'}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,401	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,401	module:util	message:['東京', 'で']	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:['B-OTHER', 'B-OTHER']	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:[]	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:[]	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:{}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,402	module:util	message:{'val': '', 'if_true': '0'}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:{'val': '', 'if_true': '0'}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:----------==============	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:----------==============	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:----dictionary-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:----dictionary-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,403	module:util	message:----aryNot-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,404	module:util	message:[]	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:00,404	module:util	message:----aryNot-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,048	module:util	message:{}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,048	module:util	message:---cacheVal---	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,049	module:util	message:--------getJobKind--------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,050	module:util	message:{'val': '', 'if_true': '0'}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:['東京', 'で', '働き', 'たい']	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:[]	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,052	module:util	message:[]	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:----------------------	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:{}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:{'val': '', 'if_true': '0'}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:{'val': '', 'if_true': '0'}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:----------==============	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:----------==============	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:----dictionary-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,053	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,054	module:util	message:----dictionary-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,054	module:util	message:----aryNot-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,054	module:util	message:[]	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:41:20,054	module:util	message:----aryNot-----	process:30258	thread:123145560551424
+[INFO]	asctime:2018-02-23 21:43:21,702	module:util	message:{}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,703	module:util	message:---cacheVal---	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,704	module:util	message:--------getJobKind--------	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,704	module:util	message:{'val': '', 'if_true': '0'}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:----------------------	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:['東京', 'で']	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:['B-OTHER', 'B-OTHER']	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:----------------------	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:----------------------	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:[]	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:[]	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,711	module:util	message:----------------------	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:{}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:{'val': '', 'if_true': '0'}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:{'val': '', 'if_true': '0'}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:----------==============	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:----------==============	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:----dictionary-----	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,712	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:----dictionary-----	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:----key-----	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:LOC	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:----key-----	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:----aryNot-----	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:[]	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:43:21,713	module:util	message:----aryNot-----	process:30434	thread:123145375232000
+[INFO]	asctime:2018-02-23 21:46:41,184	module:util	message:{}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,184	module:util	message:---cacheVal---	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,185	module:util	message:--------getJobKind--------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,185	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,194	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,194	module:util	message:['東京', 'で', '働き', 'たい']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,194	module:util	message:['B-OTHER', 'B-OTHER', 'B-OTHER', 'B-OTHER']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,194	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,194	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,194	module:util	message:[]	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,195	module:util	message:[]	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,195	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,195	module:util	message:{}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,195	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,195	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:----------==============	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:----------==============	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:----dictionary-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:----dictionary-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,200	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:LOC	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:JOB	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:MONEY	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:----aryNot-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,201	module:util	message:['JOB', 'MONEY']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,202	module:util	message:----aryNot-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,202	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:41,202	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,654	module:util	message:{}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,655	module:util	message:---cacheVal---	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,656	module:util	message:--------getJobKind--------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,656	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:['東京', 'で']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:['B-OTHER', 'B-OTHER']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:[]	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:[]	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,662	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:{}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:----------==============	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:----------==============	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:----dictionary-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,663	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----dictionary-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:LOC	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:JOB	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:MONEY	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,664	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,665	module:util	message:----aryNot-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,665	module:util	message:['JOB', 'MONEY']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,665	module:util	message:----aryNot-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,665	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:51,665	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,281	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,281	module:util	message:---cacheVal---	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,282	module:util	message:--------getJobKind--------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,282	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:['コンビニ', 'で']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:['B-OTHER', 'B-OTHER']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:[]	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,285	module:util	message:[]	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,286	module:util	message:----------------------	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,286	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,286	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,286	module:util	message:{'val': '', 'if_true': '0'}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,286	module:util	message:----------==============	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,286	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,300	module:util	message:----------==============	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,300	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,300	module:util	message:----dictionary-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:----dictionary-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:LOC	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:JOB	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,301	module:util	message:MONEY	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,302	module:util	message:----key-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,302	module:util	message:----aryNot-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,302	module:util	message:['MONEY']	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,302	module:util	message:----aryNot-----	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,302	module:util	message:{'sentence': '', 'what_ask': ''}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:46:54,302	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:30610	thread:123145552441344
+[INFO]	asctime:2018-02-23 21:48:00,967	module:util	message:{}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,967	module:util	message:---cacheVal---	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,968	module:util	message:--------getJobKind--------	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,968	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,975	module:util	message:----------------------	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:['コンビニ', 'で']	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:['B-OTHER', 'B-OTHER']	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:----------------------	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:----------------------	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:[]	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:[]	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:----------------------	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:{}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,976	module:util	message:{'val': '', 'if_true': '0'}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,982	module:util	message:----------==============	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,982	module:util	message:{'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,982	module:util	message:----------==============	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,982	module:util	message:{'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,982	module:util	message:----dictionary-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:{'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----dictionary-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----key-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:LOC	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----key-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----key-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:JOB	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----key-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----key-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:MONEY	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,983	module:util	message:----key-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,984	module:util	message:----aryNot-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,984	module:util	message:['LOC', 'MONEY']	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,984	module:util	message:----aryNot-----	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,984	module:util	message:{'sentence': 'もう一度勤務地からお願いします。', 'what_ask': 'LOC'}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 21:48:00,984	module:util	message:{"JOB": {"val": "コンビニ", "if_true": "1"}, "what_ask": "LOC"}	process:30729	thread:123145564966912
+[INFO]	asctime:2018-02-23 22:10:59,444	module:util	message:{}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,444	module:util	message:---cacheVal---	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,448	module:util	message:--------getJobKind--------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,448	module:util	message:{'val': '', 'if_true': '0'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,458	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,458	module:util	message:['東京', 'で']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,458	module:util	message:['B-OTHER', 'B-OTHER']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,458	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,458	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,458	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:LOC	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:JOB	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:MONEY	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,459	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,460	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,460	module:util	message:['JOB', 'MONEY']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,460	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,460	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:10:59,460	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,045	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,045	module:util	message:---cacheVal---	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,046	module:util	message:--------getJobKind--------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,046	module:util	message:{'val': 'コンビニ', 'if_true': '1'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,048	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,048	module:util	message:['コンビニ', 'で']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:['B-OTHER', 'B-OTHER']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'JOB', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,049	module:util	message:LOC	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:JOB	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:MONEY	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:['MONEY']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,050	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,051	module:util	message:{'sentence': '給与はいくらぐらいを希望されていますか', 'what_ask': 'MONEY'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:02,064	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "MONEY", "JOB": {"val": "コンビニ", "if_true": "1"}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,295	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,296	module:util	message:---cacheVal---	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,297	module:util	message:--------getJobKind--------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,297	module:util	message:{'val': '', 'if_true': '0'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,299	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,299	module:util	message:['日給', '10000円', 'で']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:['B-MNYUNIT', 'B-MONEY', 'B-OTHER']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'MONEY', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:LOC	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,300	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:JOB	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:MONEY	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:[]	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,301	module:util	message:{'sentence': '確認させていただきます \n        希望勤務地：東京 \n        希望職種：コンビニ\n        希望給与：日給10000円\n        こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:07,302	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,321	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'CONFIRM', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,321	module:util	message:---cacheVal---	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,326	module:util	message:--------getJobKind--------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,326	module:util	message:{'val': '', 'if_true': '0'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:['はい']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:['B-OTHER']	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:----------------------	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'CONFIRM', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,331	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}, 'what_ask': 'CONFIRM', 'JOB': {'val': 'コンビニ', 'if_true': '1'}, 'MONEY': {'val': '日給10000円', 'if_true': '1'}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----dictionary-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:LOC	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:JOB	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:MONEY	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,332	module:util	message:----key-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,333	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,333	module:util	message:[]	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,333	module:util	message:----aryNot-----	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,333	module:util	message:{'sentence': '確認させていただきます \n        希望勤務地：東京 \n        希望職種：コンビニ\n        希望給与：日給10000円\n        こちらでお間違いないでしょうか。', 'what_ask': 'CONFIRM'}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:11:34,333	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "CONFIRM", "JOB": {"val": "コンビニ", "if_true": "1"}, "MONEY": {"val": "日給10000円", "if_true": "1"}}	process:31992	thread:123145316192256
+[INFO]	asctime:2018-02-23 22:50:47,998	module:util	message:{}	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:47,998	module:util	message:---cacheVal---	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,003	module:util	message:--------getJobKind--------	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,003	module:util	message:{'val': '', 'if_true': '0'}	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,018	module:util	message:----------------------	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,018	module:util	message:['東京', 'で']	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,018	module:util	message:['B-OTHER', 'B-OTHER']	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,018	module:util	message:----------------------	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,018	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,018	module:util	message:----dictionary-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:{'LOC': {'val': '東京', 'if_true': '1'}}	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:----dictionary-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:----key-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:LOC	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:----key-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:----key-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,019	module:util	message:JOB	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,021	module:util	message:----key-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,021	module:util	message:----key-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,021	module:util	message:MONEY	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,021	module:util	message:----key-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,022	module:util	message:----aryNot-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,022	module:util	message:['JOB', 'MONEY']	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,022	module:util	message:----aryNot-----	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,022	module:util	message:{'sentence': '続いて希望の職種はなんですか', 'what_ask': 'JOB'}	process:35193	thread:123145392463872
+[INFO]	asctime:2018-02-23 22:50:48,022	module:util	message:{"LOC": {"val": "東京", "if_true": "1"}, "what_ask": "JOB"}	process:35193	thread:123145392463872

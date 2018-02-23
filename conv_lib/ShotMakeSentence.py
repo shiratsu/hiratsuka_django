@@ -12,36 +12,60 @@ class ShotMakeSentence(MakeSentence):
         
         # 質問内容
         what_ask = request.POST["what_ask"]
+        
+        util.log("----dictionary-----")
+        util.log(dictionary)
+        util.log("----dictionary-----")
 
-        for check in ['LOC','JOB','MONEY']:
-            if dictionary[check]['val'] != '':
-                if check == 'LOC':
+        aryNot = []
+
+        for key in ['LOC','JOB','MONEY']:
+            util.log("----key-----")
+            util.log(key)
+            util.log("----key-----")
+            if key not in dictionary:
+                aryNot.append(key)
+            else:
+                if dictionary[key]['val'] == '':
+                    aryNot.append(key)
+                elif dictionary[key]['if_true'] == '0':
+                    aryNot.append(key)
+
+        util.log("----aryNot-----")
+        util.log(aryNot)
+        util.log("----aryNot-----")
+
+        if len(aryNot) > 0:
+            for k in aryNot:
+                if k == 'LOC':
                     dicReturn = self.makeSentenceLocation(dictionary)        
-                elif check == 'JOB'
-                    dicReturn = self.makeSentenceJOB(dictionary)        
-                elif check == 'Money'
+                elif k == 'JOB':
+                    dicReturn = self.makeSentenceJob(dictionary)        
+                elif k == 'MONEY':
                     dicReturn = self.makeSentenceMoney(dictionary)        
                 break
-
+        else:
+            dicReturn = self.makeSentenceConfirm(dictionary)    
+        
         util.log(dicReturn)
         
         return dicReturn
-
+    
     # 位置系
-    def makeSentenceLocation(self,dicReturn,dictionary):
+    def makeSentenceLocationConfirm(self,dictionary):
         
         dicReturn = {}
-        if dictionary['LOC']['val'] != '':
-            if dictionary['LOC']['if_true'] == '1':
-                dicReturn['sentence'] = '続いて希望の職種はなんですか'
-                dicReturn['what_ask'] = 'JOB'
-            else:
-                dicReturn['sentence'] = 'それは地名ですか？'
-                dicReturn['what_ask'] = 'LOC_CONFIRM'
-                
-        else:
-            dicReturn['sentence'] = 'すみません、もう一度希望勤務地をお聞かせください。'
-            dicReturn['what_ask'] = 'LOC'
+        dicReturn['sentence'] = 'それは地名ですか？'
+        dicReturn['what_ask'] = 'LOC_CONFIRM'
+
+        return dicReturn
+
+    # 位置系
+    def makeSentenceLocation(self,dictionary):
+        
+        dicReturn = {}
+        dicReturn['sentence'] = 'もう一度勤務地からお願いします。'
+        dicReturn['what_ask'] = 'LOC'
 
         return dicReturn
     
@@ -49,30 +73,31 @@ class ShotMakeSentence(MakeSentence):
     def makeSentenceJob(self,dictionary):
         
         dicReturn = {}
-        
-        if dictionary['JOB']['val'] != '':
-            dicReturn['sentence'] = '給与はいくらぐらいを希望されていますか'
-            dicReturn['what_ask'] = 'MONEY'
-        else:
-            dicReturn['sentence'] = 'すみません、職種に関してよくわからなかったので、もう一度お願いします。'
-            dicReturn['what_ask'] = 'JOB'
+        dicReturn['sentence'] = '続いて希望の職種はなんですか'
+        dicReturn['what_ask'] = 'JOB'
 
         return dicReturn
+    
+        
     
     # 給与の文作成
     def makeSentenceMoney(self,dictionary):
         
         dicReturn = {}
+        dicReturn['sentence'] = '給与はいくらぐらいを希望されていますか'
+        dicReturn['what_ask'] = 'MONEY'
         
-        if dictionary['MONEY']['val'] != '':
-            dicReturn['sentence'] = """確認させていただきます 
-            希望勤務地："""+dictionary['LOC']['val']+""" 
-            希望職種："""+dictionary['JOB']['val']+"""
-            希望給与："""+dictionary['MONEY']['val']+"""
-            こちらでお間違いないでしょうか。"""
-            dicReturn['what_ask'] = 'CONFIRM'
-        else:
-            dicReturn['sentence'] = 'すみません、給与に関してよくわからなかったので、もう一度お願いします。'
-            dicReturn['what_ask'] = 'MONEY'
+        return dicReturn
+    
+    # 確認の文作成
+    def makeSentenceConfirm(self,dictionary):
+        
+        dicReturn = {}
+        dicReturn['sentence'] = """確認させていただきます 
+        希望勤務地："""+dictionary['LOC']['val']+""" 
+        希望職種："""+dictionary['JOB']['val']+"""
+        希望給与："""+dictionary['MONEY']['val']+"""
+        こちらでお間違いないでしょうか。"""
+        dicReturn['what_ask'] = 'CONFIRM'
 
         return dicReturn
