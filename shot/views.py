@@ -25,9 +25,8 @@ def index(request):
     conversation_id = request.POST['conversation_id']
 
     #キャッシュから会話を取得
-    cacheval = cache.get(conversation_id)
-    
     dicCache = {}
+    cacheval = cache.get(conversation_id)
     if cacheval != None:
         dicCache = json.loads(cacheval)
 
@@ -65,3 +64,9 @@ def index(request):
 
     strJson = json.dumps(dicReturn, ensure_ascii=False)    
     return HttpResponse(strJson, content_type='application/json; charset=UTF-8')
+
+
+# 言語解析
+@csrf_exempt
+def confirm(request):
+    return HttpResponse("{'name':'hiratsuka','hobby':'badminton'}", content_type='application/json; charset=UTF-8')

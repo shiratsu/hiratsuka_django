@@ -5,7 +5,7 @@ from common_lib import convert_kansuuji
 from common_lib import convert_for_crf
 from common_lib import util
 import pycrfsuite
-
+from gensim.models.doc2vec import Doc2Vec
 
 class ShotConversationAnalysis(ConversationAnalysis):
 
@@ -109,7 +109,7 @@ class ShotConversationAnalysis(ConversationAnalysis):
         predictlist = tagger.tag(convert_for_crf.sent2features(crfsent))
 
         # 給与の情報を取り出す
-        strResult = self.getExtractInfo(tokenlist,predictlist,['B-MNYUNIT','B-MONEY','I-MONEY'])
+        strResult = self.getExtractInfo(tokenlist,predictlist,['B-MNYUNIT','B-MONEY','I-MONEY'],'MONEY')
 
         if strResult != '':
             dicReturn['val'] = strResult
@@ -117,6 +117,70 @@ class ShotConversationAnalysis(ConversationAnalysis):
 
         return dicReturn
 
+    # CRFの結果から、自分の必要なものを抜き出す処理    
+    def getExtractInfo(self,tokenlist,predictlist,aryWantExtract,strPattern):
+        strResult = ''
+        i = 0
+        aryInfo = []
+        aryPredict = []
+
+        util.log("----------------------")
+        util.log(tokenlist)
+        util.log(predictlist)
+        util.log("----------------------")
+
+        for i,p in enumerate(predictlist):
+            
+            # 抜き出した情報が、ほしいものの中にあるか
+            if p in aryWantExtract:
+                if tokenlist[i] != 'は':
+                    aryInfo.append(tokenlist[i])
+
+                aryPredict.append(p)
+        
+        if strPattern == 'MONEY':
+            # aryInfoに中身が入っていれば、結果を作成
+            if len(aryInfo) > 0  \
+                and 'B-MNYUNIT' in aryPredict \
+                and 'B-MONEY' in aryPredict: 
+                strResult = ''.join(aryInfo)
+        
+        elif strPattern == 'CONFIRM':
+            if len(aryInfo) > 0:
+                if 'B-YES' in aryInfo:
+                    strResult == '1'
+                elif 'B-SO' in aryInfo:
+                    strResult == '1'
+
+
+        return strResult
+
+    # 確認の処理を行う
+    def getConfirm(self,sentence):
+        
+        dicReturn = {'val':'','if_true':'0'}
+        
+        # オブジェクトを初期化
+        model = Doc2Vec.load('yes_no_sentence.model')        
+        words = util.makeWakatiData(self.mecab,sentence) 
+        infered_vecor = model.infer_vector(words)
+        # 文章を指定してそれに近い文章を抽出する
+        result = model.docvecs.most_similar([infered_vecor])
+        tag = result[0][0]
+        # randomforestの分類モデルから答えを取得
+        vector = model.docvecs[tag]
+
+        # モデルをロード
+        with open('yes_no_sentence.pickle', 'rb') as f:
+            forest = cPickle.load(f) 
+
+        result2 = forest.predict([vector])
+
+        if len(result2) == 1:
+            dicReturn {'val':result2[0],'if_true':'0'}
+
+        return dicReturn
+    
     # CRFの結果から、自分の必要なものを抜き出す処理    
     def getExtractInfo(self,tokenlist,predictlist,aryWantExtract):
         strResult = ''
@@ -129,26 +193,8 @@ class ShotConversationAnalysis(ConversationAnalysis):
         util.log(predictlist)
         util.log("----------------------")
 
-
-        for i,p in enumerate(predictlist):
-            
-            # 抜き出した情報が、ほしいものの中にあるか
-            if p in aryWantExtract:
-                if tokenlist[i] != 'は':
-                    aryInfo.append(tokenlist[i])
-
-                aryPredict.append(p)
         
-        
-        # aryInfoに中身が入っていれば、結果を作成
-        if len(aryInfo) > 0  \
-            and 'B-MNYUNIT' in aryPredict \
-            and 'B-MONEY' in aryPredict: 
-            strResult = ''.join(aryInfo)
+
 
         return strResult
 
-    def getConfirm(self,sentence):
-        
-        dicReturn = {'val':'','if_true':'0'}
-        return dicReturn

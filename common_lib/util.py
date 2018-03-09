@@ -4,7 +4,18 @@
 #
 #
 import logging
+import Mecab
 
+def makeWakatiData(mecab,sentence):
+
+    node = mecab.parse(sentence)
+
+    sentences = []
+    for chunk in node.splitlines()[:-1]:
+        nodeParts = []
+        (surface, feature) = chunk.split('\t')
+        sentences.append(surface)
+    return sentences
 
 # 必須パラメータ確認
 def checkRequired(request,aryRequired):
