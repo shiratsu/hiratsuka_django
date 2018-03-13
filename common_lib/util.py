@@ -4,7 +4,7 @@
 #
 #
 import logging
-import Mecab
+import MeCab
 
 def makeWakatiData(mecab,sentence):
 

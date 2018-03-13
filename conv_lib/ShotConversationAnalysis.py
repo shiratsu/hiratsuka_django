@@ -177,7 +177,7 @@ class ShotConversationAnalysis(ConversationAnalysis):
         result2 = forest.predict([vector])
 
         if len(result2) == 1:
-            dicReturn {'val':result2[0],'if_true':'0'}
+            dicReturn = {'val':result2[0],'if_true':'0'}
 
         return dicReturn
     
